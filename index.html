@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Online Fitness — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header (shared across pages) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Online <span class="logo-accent">Fitness</span></div>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">About Services</a>
+        <a href="features.html" class="nav-link">Features</a>
+        <a href="contacts.html" class="nav-link">Contacts</a>
+      </nav>
+
+      <div class="header-cta">
+        <button class="btn ghost">Sign in</button>
+        <button class="btn primary">Sign up</button>
+      </div>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Hero (Z-pattern start top-left) -->
+    <section class="hero z-section">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Move. Commit. Transform.</h1>
+          <p class="lead">Online Fitness helps you build sustainable habits with personalized workouts, nutrition guidance and coaching — all in one clean, easy-to-use platform.</p>
+          <div class="hero-actions">
+            <a href="services.html" class="btn primary">Explore Services</a>
+            <a href="features.html" class="btn ghost">See Features</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="homeexercise.jpg" alt="Person exercising" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services preview (Z-pattern middle) -->
+    <section class="services-preview z-section">
+      <div class="container section-header">
+        <h2>Our Services</h2>
+        <p>Everything designed to help you stay consistent and see results.</p>
+      </div>
+
+      <div class="container cards-grid">
+        <article class="card zoom-card">
+          <img src="workout.avif" alt="Personalized workout">
+          <h3>Personalized Workouts</h3>
+          <p>Workouts tailored to your goals — beginner to advanced.</p>
+        </article>
+
+        <article class="card zoom-card">
+          <img src="diet.webp" alt="Nutrition plan">
+          <h3>Nutrition Plans</h3>
+          <p>Simple meal guides that match your energy needs and taste.</p>
+        </article>
+
+        <article class="card zoom-card">
+          <img src="onlinecoaching.webp" alt="Live coaching">
+          <h3>Live Coaching</h3>
+          <p>Work with coaches live for technique checks and motivation.</p>
+        </article>
+
+        <article class="card zoom-card">
+          <img src="fitness.jpg" alt="Progress tracking">
+          <h3>Progress Tracking</h3>
+          <p>Track sessions, measurements and celebrate improvements.</p>
+        </article>
+      </div>
+
+      <div class="container more-link">
+        <a href="services.html" class="btn ghost">See All Services</a>
+      </div>
+    </section>
+
+    <!-- Features preview (Z-pattern finish bottom-right) -->
+    <section class="features-preview z-section alt-bg">
+      <div class="container section-header">
+        <h2>Key Features</h2>
+        <p>Powerful tools that make fitness simple and attainable.</p>
+      </div>
+
+      <div class="container features-grid">
+        <article class="feature-card zoom-card">
+          <h3>Interactive Videos</h3>
+          <p>Step-by-step guided sessions with on-screen cues.</p>
+        </article>
+
+        <article class="feature-card zoom-card">
+          <h3>Adaptive Plans</h3>
+          <p>Workout intensity adjusts as you progress.</p>
+        </article>
+
+        <article class="feature-card zoom-card">
+          <h3>Community Challenges</h3>
+          <p>Join weekly challenges and motivate each other.</p>
+        </article>
+      </div>
+
+      <div class="container more-link">
+        <a href="features.html" class="btn primary">Discover Features</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (shared) -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">Online <span class="logo-accent">Fitness</span></div>
+        <p>Train smarter. Live healthier.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="services.html">Services</a>
+        <a href="features.html">Features</a>
+        <a href="contacts.html">Contact</a>
+      </div>
+
+      <div class="footer-copy">
+        <p>&copy; <span id="year"></span> Online Fitness. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
